@@ -1,0 +1,15 @@
+name: Magnifier
+version: '${project.version}'
+main: me.tema159.magnifier.Magnifier
+api-version: '1.14'
+loadbefore: [CoreProtect]
+
+commands:
+  magnifier-give:
+    description: Give magnifier
+    usage: /magnifier-give
+    permission: magnifier.commands.give
+
+permissions:
+  magnifier.commands.unlock:
+    description: Unlock CoreProtect commands

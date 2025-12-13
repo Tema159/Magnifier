@@ -1,0 +1,13 @@
+time: "0m"
+radius: 5
+item:
+  name: "&rMagnifier"
+  lore:
+    - "&rClick to view action history"
+  custom_model_data: 12345
+  material: COMPASS
+  craft:
+    shape:
+      - "_I_"
+      - "IGI"
+      - "SI_"
